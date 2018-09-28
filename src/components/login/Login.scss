@@ -1,0 +1,21 @@
+.bs_login {
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+
+    > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &:first-of-type {
+            width: 50%;
+            background-color: purple;
+        }
+
+        &:not(:first-of-type) {
+            width: 50%;
+        }
+    }
+}
