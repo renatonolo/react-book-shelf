@@ -7,7 +7,7 @@ export default class Login extends Component {
 
     constructor() {
         super()
-        
+
         this.state = {
             username: '',
             password: ''
@@ -37,9 +37,12 @@ export default class Login extends Component {
             <div className="bs_login">
                 <div></div>
                 <div>
-                    Username: <input type="text" onChange={this.usernameChanged}/>
-                    Password: <input type="password" onChange={this.passwordChanged}/>
-                    <button onClick={this.handleClick}>Login</button>
+                    <div>
+                        <h1>React Book Shelf</h1>
+                        <label>Username: </label><input type="text" onChange={this.usernameChanged} />
+                        <label>Password: </label><input type="password" onChange={this.passwordChanged} />
+                        <button onClick={this.handleClick}>Login</button>
+                    </div>
                 </div>
             </div>
         )

@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import firebase from 'firebase/app'
-import database from 'firebase/database'
 
 class Home extends React.Component {
     constructor() {

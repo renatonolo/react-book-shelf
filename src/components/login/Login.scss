@@ -11,11 +11,27 @@
 
         &:first-of-type {
             width: 50%;
-            background-color: purple;
+            background-image: url(/assets/images/background.jpg);
+            // background-repeat: no-repeat;
         }
 
         &:not(:first-of-type) {
             width: 50%;
+            background-color: purple;
+
+            > div {
+                display: flex;
+                min-width: 300px;
+                flex-direction: column;
+                
+                > label:not(:first-of-type) {
+                    margin-top: 20px;
+                }
+
+                > button {
+                    margin-top: 20px;
+                }
+            }
         }
     }
 }

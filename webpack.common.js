@@ -1,4 +1,4 @@
-const { resolve, join } = require('path');
+const { resolve } = require('path');
 
 module.exports = {
     entry: ['babel-polyfill', './src/index.jsx'],
@@ -26,14 +26,5 @@ module.exports = {
     },
     resolve: {
         extensions: [".js", ".jsx"]
-    },
-    devtool: "source-map",
-    devServer: {
-        contentBase: join(__dirname, 'public'),
-        compress: false
-    },
-    stats: {
-        colors: true,
-        reasons: true
     }
 }
