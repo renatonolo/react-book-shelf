@@ -2,3 +2,5 @@ node_modules
 
 public/*.js
 public/*.map
+
+package-lock.json
