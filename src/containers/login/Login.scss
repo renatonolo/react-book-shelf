@@ -2,6 +2,7 @@
     display: flex;
     width: 100vw;
     min-height: 100vh;
+    color: white;
 
     > div {
         display: flex;
@@ -19,7 +20,7 @@
             width: 50%;
             background-color: purple;
 
-            > div {
+            > div > form {
                 display: flex;
                 min-width: 300px;
                 flex-direction: column;

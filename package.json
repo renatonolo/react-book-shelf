@@ -23,7 +23,10 @@
     "react": "^16.5.2",
     "react-autobind": "^1.0.6",
     "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
     "uglifyjs-webpack-plugin": "^2.0.1",
@@ -33,7 +36,6 @@
     "webpack-merge": "^4.1.4"
   },
   "dependencies": {
-    "firebase": "^5.5.2",
-    "react-redux": "^5.0.7"
+    "firebase": "^5.5.2"
   }
 }
