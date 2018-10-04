@@ -7,7 +7,8 @@ module.exports = merge(common, {
     devtool: "source-map",
     devServer: {
         contentBase: join(__dirname, 'public'),
-        compress: false
+        compress: false,
+        historyApiFallback: true
     },
     stats: {
         colors: true,
