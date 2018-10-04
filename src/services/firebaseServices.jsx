@@ -1,4 +1,4 @@
-import firebase from 'firebase'
+import * as firebaseApp from 'firebase/app';
 
 export default class FirebaseServices {
     static initializeFirebaseApp() {
@@ -8,8 +8,8 @@ export default class FirebaseServices {
             apiKey: "AIzaSyDqH63kvCMZSpPFCE-DHh4QEnn-7FV6CTU",
             authDomain: "bookshelf-651d3.firebaseapp.com",
             databaseURL: "https://bookshelf-651d3.firebaseio.com"
-        };
+        }
 
-        firebase.initializeApp(config);
+        firebaseApp.initializeApp(config)
     }
 }
