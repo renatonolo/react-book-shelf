@@ -1,0 +1,8 @@
+.bs_books {
+    list-style: none;
+    text-align: left;
+
+    > li:not(:first-child) {
+        margin-top: 40px;
+    }
+}

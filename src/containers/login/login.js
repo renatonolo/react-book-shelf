@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import { Redirect } from 'react-router-dom'
 
 import { authActions } from '../../actions'
-import './Login.scss'
+import './login.scss'
 
 
 class Login extends Component {
@@ -19,10 +19,6 @@ class Login extends Component {
 
         autoBind(this)
     }
-
-    // componentWillReceiveProps(nextProps) {
-    //     if (nextProps.auth.loggedIn) BrowserRouter.push('/dashboard')
-    // }
 
     usernameChanged(event) {
         this.setState({

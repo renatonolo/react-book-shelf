@@ -1,0 +1,23 @@
+.bs_form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    > label:not(:first-child),
+    > button {
+        margin-top: 20px;
+    }
+
+    > input[type=text],
+    > textarea {
+        border: 1px solid gray;
+        border-radius: 4px;
+        padding: 8px;
+        color: purple;
+        
+        &:focus {
+            outline: 0px;
+            border-color: purple;
+        }
+    }
+}

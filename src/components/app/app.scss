@@ -1,0 +1,14 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    color: purple;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+body > div {
+    position: relative;
+    display: inline-block;
+    min-width: 700px;
+    margin: 0 auto;
+}
